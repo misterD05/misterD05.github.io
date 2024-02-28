@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    position: absolute;
+}
+
+.menu{
+    background: rgb(131, 16, 16);
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.containT{
+    background: rgb(187, 49, 49);
+    /*border-right: solid 1px;*/
+    height: 70px;
+    width: 300px;
+    top: 5%;
+    left: 0px;
+    border-radius: 360px;
+}
+
+.similT{
+    background: rgb(187, 49, 49);
+    height: 70px;
+    width: 30px;
+    top: 5%;
+    left: 0px;
+}
+
+.testo{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 12%;
+}
+
+#menuOp{
+    position: absolute;
+    background-color: rgb(187, 49, 49);
+    height: 60px;
+    width: 60px;
+    border-radius: 360px;
+    left: 320px;
+    top:10px;
+}
+.homeSign{
+    background-color: black;
+    height: 25px;
+    width: 26px;
+    border-radius: 10%;
+    top: 21px;
+    left: 15px;
+}
+
+.roof{
+    height: 0;
+    width: 0;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 14px solid #000000;
+    border-radius: 10px;
+    top: -12px;
+    left:-2px;
+}
+
+.door{
+    background-color: rgb(187, 49, 49);
+    height: 15px;
+    width: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    top: 22px;
+    left: -4px;
+}
