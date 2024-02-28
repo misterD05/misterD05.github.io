@@ -2,6 +2,7 @@ var home = document.getElementById("menuHome");
 var door = document.getElementById("Door");
 var but1Us = document.getElementById("openWho");
 var but1Rob = document.getElementById("openProj");
+but1Rob.setAttribute("hidden", "hidden");
 but1Us.setAttribute("hidden", "hidden");
 home.addEventListener("click", openMenu);
 
