@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(0, 0, 0);
+
+    /*background: linear-gradient(to bottom, rgb(49, 49, 49), rgb(221, 26, 26));*/
+    background-color: rgb(33, 33, 33);
 }
 
 div{
@@ -7,7 +9,7 @@ div{
 }
 
 .menu{
-    background: rgb(131, 16, 16);
+    background: rgb(0, 0, 0);
     height: 80px;
     width: 150%;
     top: 0px;
@@ -15,7 +17,7 @@ div{
 }
 
 .containT{
-    background: rgb(187, 49, 49);
+    background: linear-gradient(to right, rgb(148, 54, 54), rgb(255, 0, 0));
     border: solid 1px;
     border-left: solid 0px;
     height: 70px;
@@ -36,7 +38,7 @@ div{
 
 .menuOp{
     position: absolute;
-    background-color: rgb(187, 49, 49);
+    background: radial-gradient(rgb(255, 0, 0),rgb(106, 34, 34) );
     border: solid 1px;
     height: 60px;
     width: 60px;
@@ -47,7 +49,7 @@ div{
 
 .menuOp2{
     position: absolute;
-    background-color: rgb(196, 100, 100);
+    background: radial-gradient(rgb(180, 115, 115), rgb(255, 84, 84));
     border: solid 1px;
     height: 60px;
     width: 60px;
@@ -87,7 +89,7 @@ div{
 }
 
 .door2{
-    background-color: rgb(196, 100, 100);
+    background: radial-gradient(rgb(180, 115, 115), rgb(255, 84, 84));
     height: 15px;
     width: 8px;
     border-top-left-radius: 10px;
@@ -139,7 +141,7 @@ div{
 
 .collo2{
     z-index: 2;
-    background-color: rgb(196, 100, 100);
+    background: radial-gradient(rgb(180, 115, 115), rgb(255, 84, 84));
     height: 10px;
     width: 15px;
     border-bottom-left-radius: 360px;
@@ -189,7 +191,7 @@ div{
     height: 4px;
     width: 4px;
     border-radius: 360px;
-    background-color:  rgb(196, 100, 100);
+    background: radial-gradient(rgb(180, 115, 115), rgb(255, 84, 84));
 }
 
 #r{
@@ -220,5 +222,9 @@ div{
 #l1{
     transform: rotate(-130deg);
     left:1px;
-    top:-17px
+    top:-17px;
+}
+
+.ball{
+    background: linear-gradient(to bottom, rgb(49, 49, 49), rgb(221, 26, 26));
 }
