@@ -36,8 +36,8 @@ function bubblesUp(){
         ball.classList.add("ball");
 
         measure = Math.random() * 50;
-        pos2 = Math.floor(Math.random() * window.innerWidth);
-        pos3 = Math.floor(Math.random() * window.innerHeight);
+        pos2 = Math.floor(Math.random() * 575);
+        pos3 = Math.floor(Math.random() * 575);
         
         ball.style.left =  pos2 / 6 + "%";
         ball.style.bottom = pos3 / 6 + "%";
