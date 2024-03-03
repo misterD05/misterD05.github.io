@@ -35,8 +35,9 @@ div{
 
 .testo{
     position: absolute;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    left: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 13%;
+    top: -10%;
 }
 
 .menuOp{
@@ -231,6 +232,7 @@ div{
 }
 
 .ball{
+    z-index: 1;
     position: absolute;
     background: radial-gradient(rgb(221, 26, 26),rgb(49, 49, 49));
     border-radius: 360px;
