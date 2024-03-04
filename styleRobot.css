@@ -13,7 +13,7 @@ div{
     position: sticky ;
     background: rgb(0, 0, 0);
     height: 80px;
-    width: 50%;
+    width: 60%;
     min-width: 550px;
     border-radius: 360px;
     top: 0px;
@@ -234,7 +234,7 @@ div{
 .ball{
     z-index: 1;
     position: absolute;
-    background: radial-gradient(rgb(221, 26, 26),rgb(49, 49, 49));
+    background: radial-gradient(rgb(255, 0, 0),rgb(49, 49, 49));
     border-radius: 360px;
     
     animation: bubblesUp linear infinite;
