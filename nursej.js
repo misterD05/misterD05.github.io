@@ -1,10 +1,17 @@
 var home = document.getElementById("menuHome");
 var door = document.getElementById("Door")
 var us = document.getElementById("openWho");
+var neck = document.getElementById("neck");
 var rob = document.getElementById("openProj");
+var eye1 = document.getElementById("r")
+var eye2 = document.getElementById("l")
 us.setAttribute("hidden", 'hidden')
 rob.setAttribute("hidden", 'hidden')
 home.addEventListener("click", openMenu);
+home.addEventListener("dblclick", openHome)
+us.addEventListener("click", openWho);
+rob.addEventListener("click", openRob)
+//home.addEventListener("onmouseover", )
 
 function openMenu(){
     home.className = (home.className == "menuOp") ? "menuOp2" : "menuOp";
@@ -17,6 +24,27 @@ function openMenu(){
         rob.removeAttribute("hidden")
     }
 }
+
+function openHome(){
+    home.className = (home.className == "menuOp") ? "menuOp2" : "menuOp";
+    door.className =(door.className == "door") ? "door2" : "door";
+    window.location.href = "index.html"
+}
+
+function openWho(){
+    us.className = (us.className == "menuOp") ? "menuOp2" : "menuOp";
+    neck.className =(neck.className == "collo") ? "collo2" : "collo";
+    window.location.href = "us.html";
+}
+
+
+function openRob(){
+    rob.className = (us.className == "menuOp") ? "menuOp2" : "menuOp";
+    eye1.className =(eye1.className == "occhio") ? "occhio2" : "occhio";
+    eye2.className =(eye2.className == "occhio") ? "occhio2" : "occhio";
+    window.location.href = "rob.html";
+}
+
 
 
 
