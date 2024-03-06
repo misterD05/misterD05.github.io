@@ -73,7 +73,11 @@ function bubblesUp(){
         ball.style.height = measure + 'px';
         ball.style.width = measure + 'px';
 
-        ball.style.animationDuration = 1.5 *measure + "s";
+        if(measure < 20){
+            ball.style.zIndex = 4;
+        }
+        ball.style.filter = "blur(" + (Math.abs(measure/18)) + "px)"; 
+        ball.style.animationDuration = 260 *measure + "ms";
         
         father.appendChild(ball);
         
