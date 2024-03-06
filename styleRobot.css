@@ -2,6 +2,7 @@ body {
 
     /*background: linear-gradient(to bottom, rgb(49, 49, 49), rgb(221, 26, 26));*/
     background-color: rgb(33, 33, 33);
+    overflow: hidden;
 }
 
 div{
@@ -234,7 +235,7 @@ div{
 .ball{
     z-index: 1;
     position: absolute;
-    background: radial-gradient(rgb(255, 0, 0),rgb(49, 49, 49));
+    background: linear-gradient(to bottom, rgb(255, 0, 0),rgb(0, 0, 0));
     border-radius: 360px;
     
     animation: bubblesUp linear infinite;
@@ -243,7 +244,7 @@ div{
 @keyframes bubblesUp{
     100%{
         transform: translateY(20%);
-        opacity: 0.1;
+        opacity: 0.3;
         
     }
     95%{opacity: 0.4;}
@@ -262,8 +263,11 @@ div{
     10%{
         opacity: 05;
     }
-    0%{
-        bottom: 0px;
+    5%{
         opacity: 0.2;
+    }
+    0%{
+        bottom: -20%;
+        opacity: 0;
     }
 }
