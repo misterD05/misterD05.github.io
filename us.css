@@ -1,0 +1,9 @@
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(146, 146, 146);
+    opacity: 0.8;
+    font-size: 60px;
+    position: absolute;
+    z-index: 3;
+    left:45px;
+}
