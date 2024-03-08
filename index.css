@@ -25,7 +25,23 @@
     position:  absolute;
     left: 45px;
     top: 50%;
-    height: 240px;
-    width: 520px; 
+    height: 50%;
+    width: 40%;
+    max-height: 220px;
+    max-width: 480px; 
+    border-radius: 20px;
+}
+
+
+#imag2{
+    z-index: 2;
+    opacity: 0.8;
+    position:  absolute;
+    left: 550px;
+    top: 50%;
+    height: 25%;
+    width: 40%;
+    max-height: 220px;
+    max-width: 420px; 
     border-radius: 20px;
 }
