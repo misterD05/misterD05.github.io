@@ -267,7 +267,7 @@ div{
         opacity: 0.2;
     }
     0%{
-        bottom: -20%;
+        bottom: -100%;
         opacity: 0;
     }
 }
