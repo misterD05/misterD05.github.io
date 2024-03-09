@@ -7,3 +7,29 @@
     z-index: 3;
     left:45px;
 }
+
+.containsText{
+    position: absolute;
+    z-index: 2;
+    height: 15%;
+    width: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    opacity: 0.5;
+    left: 45px;
+    top: 30%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.normalText{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: white;
+    left: 20px;
+    right:15px;
+    
+}
