@@ -9,6 +9,22 @@ div{
     position: absolute;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+    height: 2px;
+}
+
+
+
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(156, 155, 155);
+    border-radius: 360px;
+
+}
+
+
+
 .menu{
     z-index: 3;
     position: sticky ;
@@ -267,7 +283,7 @@ div{
         opacity: 0.2;
     }
     0%{
-        bottom: -100%;
+        bottom: -80%;
         opacity: 0;
     }
 }
