@@ -77,7 +77,7 @@ function bubblesUp(){
             ball.style.zIndex = 4;
             ball.style.filter = "blur(" + (Math.abs(measure/8)) + "px)"; 
         }else{
-            ball.style.filter = "blur(" + (Math.abs(measure/20)) + "px)"; 
+            ball.style.filter = "blur(" + (Math.abs(measure/18)) + "px)"; 
         }
         
         ball.style.animationDuration = 700 *measure + "ms";
