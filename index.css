@@ -7,7 +7,7 @@
     border-radius: 20px;
     opacity: 0.5;
     left: 45px;
-    top: 50%;
+    top: 55%;
     overflow: scroll;
     overflow-x: hidden;
 }
@@ -26,27 +26,27 @@
 
 #imag1{
     z-index: 2;
-    opacity: 0.8;
+    opacity: 0.9;
     position:  absolute;
-    left: 45px;
-    top: 20%;
-    height: 50%;
-    width: 40%;
-    max-height: 220px;
-    max-width: 480px; 
-    border-radius: 20px;
+    left: 5px;
+    top: 11%;
+    height: 40%;
+    width: 80%;
+    max-width: 1000px;
+    min-height: 100px;
+    min-width: 240px;
+    background: rgb(190, 190, 190);
+    border-bottom-right-radius: 360px;
+    border-top-right-radius: 360px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
 }
 
 
-#imag2{
-    z-index: 2;
-    opacity: 0.8;
-    position:  absolute;
-    left: 50%;
-    top: 20%;
-    height: 25%;
-    width: 40%;
-    max-height: 220px;
-    max-width: 420px; 
-    border-radius: 20px;
+#imag1:hover{
+    background-image: url(https://citynews-genovatoday.stgy.ovh/~media/horizontal-mid/62033338072347/robot-ragazzi-studenti.jpeg);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
 }
+
