@@ -1,44 +1,35 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styleRobot.css">
-        <link rel="stylesheet" href="us.css">
-        
-    </head>
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(146, 146, 146);
+    opacity: 0.8;
+    font-size: 60px;
+    position: absolute;
+    z-index: 3;
+    left:45px;
+}
+
+.containsText{
+    position: absolute;
+    z-index: 2;
+    height: 15%;
+    width: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    opacity: 0.5;
+    left: 45px;
+    top: 30%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.normalText{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: white;
+    left: 20px;
+    right:15px;
     
-    <body id = "containAnimations">
-        <div class = "menu">
-            <div class="containT">
-                <h1 class="testo">F.A.R.A. Group</h1>
-            </div>
-            <button id = "menuHome" class = "menuOp" title = "home">
-                <div class = "homeSign"><div class = "roof"><div class = "door" id = "Door"></div></div></div>
-            </button>
-
-            <button id = "openWho" class = "menuOp" title = "us">
-                <div class = "personSign"><div class = "head"></div><div class = "collo" id = "neck"></div></div>
-            </button>
-            
-            <button id = "openProj" class = "menuOp" title = "rob">
-                <div class = "RobSign">
-                    <div class = "headRob"></div>
-                    <div class = "occhio" id = "r"></div>
-                    <div class = "occhio" id = "l"></div>
-                    <div class = "antenna" id = "r1"></div>
-                    <div class = "antenna" id = "l1"></div>
-                </div>
-            </button>
-        </div>
-        
-        
-        <h2 class = "title">Chi siamo ?</h2>
-        
-        <div class = "containsText"><p class = "normalText">Siamo degli studenti dell'I.T.I.S. Carlo Zuccante Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus animi asperiores, ab reprehenderit fugiat quis vitae consequuntur? Est fugit nemo quis? Laudantium minus quis magni velit accusamus quam ea.</p></div>
-
-        <div></div>
-        <div></div>
-        <div></div>
-        <div><h2></h2></div>
-
-        <script language = "JavaScript" type = "text/JavaScript" src="nursej.js"></script>
-    </body>
-</html>
+}
