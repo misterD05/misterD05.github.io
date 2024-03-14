@@ -27,166 +27,88 @@
 
 
 #imag2{
-    z-index: 2;
-    opacity: 0;
+    opacity: 1;
     position:  absolute;
     height: 100%;
     width: 100%;
     min-width: 240px;
     background: rgb(0, 0, 0);
-    border-radius: 40px;
     
 }
 
 #imag1{
     z-index: 2;
-    opacity: 0.9;
     position:  absolute;
     height: 100%;
     width: 100%;
     min-width: 240px;
-    background: rgb(190, 190, 190);
-    border-radius: 40px;
+    background: rgb(207, 207, 207);
     
 }
 
-.inform{
-    left: 45px;
-    top: 15%;
-    height: 35%;
-    width: 80%;
-    
-    max-width: 850px;
-    min-height: 100px;
+#pres{
+    opacity: 0.9;
+    left:50%;
+}
+
+
+
+#subtit{
+    opacity: 0%;
+    color: rgb(109, 109, 109);
+    left: max(60%, 550px);
+    font-size: max(40px,5vw);
+    text-align: center;
+}
+
+
+
+.inform::-webkit-scrollbar{
+    width: 5px;
+    height: 2px;
+}
+
+
+#nothover{
     overflow: scroll;
     overflow-x: hidden;
 }
 
+.inform::-webkit-scrollbar-thumb:hover{
+    background: rgb(255, 50, 50);
+    border-radius: 360px;
 
-.inform:hover #imag2{
-    animation: nebbiatransition;
-    animation-duration: 350ms;
-
-    opacity: 0.8; 
-    border-radius: 0px;
 }
-
-.inform:hover #pres{
-    transition: 350ms;
+.inform{
+    left: 0px;
     z-index: 2;
-    opacity: 0.5;
-    position: absolute;
-    left: 47%;
+    top: 170px;
+    height: 25%;
+    width: 100%;
+    opacity: 0.8;
+    overflow: scroll;
+    overflow-y: hidden;
+    transition: 200ms;
 }
 
-.inform:not(:hover) #pres{
-    opacity: 0;
+#nothover:hover{
+    opacity: 0.9;
 }
 
-.inform:hover #imag1{
-    animation: nebbiatransitionINV;
-    animation-duration: 350ms;
 
-    opacity: 0;
 
-}
 
 .inform:hover{
-    max-width: 100%;
-    animation: large;
-    animation-duration: 350ms;
-    width: 100%; 
-    left: 0px;
-    border-radius: 0px;
+    opacity: 0;
+    
 }
 
-.inform:not(:hover){
-    max-width: 850px;
-    animation: minus;
-    animation-duration: 350ms;
-    width: 80%; 
-    left: 45px;
-    border-radius: 40px;
+#imag1:hover{
+    opacity:0;
+}
+
+#subtit{
+    opacity: 0;
 }
 
 
-
-@keyframes nebbiatransition {
-
-    100%{opacity:0.8 ;border-radius: 0px;}
-    60%{opacity:0.6 ; border-radius: 10px;}
-    40%{opacity:0.4 ; border-radius: 20px;}
-    20%{opacity:0.2 ; border-radius: 30px;}
-    0%{opacity:0 ;    border-radius: 40px;}
-
-}
-
-@keyframes nebbiatransitionINV {
-
-    100%{opacity:0 ; border-radius: 40px;}
-    60%{opacity:0.2 ;border-radius: 30px;}
-    40%{opacity:0.4 ;border-radius: 20px;}
-    20%{opacity:0.6 ;border-radius: 10px;}
-    0%{opacity:0.8 ; border-radius: 0px;}
-
-}
-
-@keyframes large {
-
-    100%{
-        width: 100%; 
-        left: 0px;
-        border-radius: 0px;
-    }
-    60%{
-        width: 95%; 
-        left: 11px;
-        border-radius: 10px;
-    }
-    40%{
-        width: 90%; 
-        left: 22px;
-        border-radius:20px;
-    }
-    20%{
-        width: 85%; 
-        left: 33px;
-        border-radius:30px;
-    }
-    0%{
-        width: 80%; 
-        left: 44;
-        border-radius: 40px; 
-    }
-
-}
-
-@keyframes minus {
-
-    100%{
-        width: 80%; 
-        left: 44px;
-        border-radius: 40px;
-    }
-    60%{
-        width: 85%; 
-        left: 33px;
-        border-radius: 30px;
-    }
-    40%{
-        width: 90%; 
-        left: 22px;
-        border-radius:20px;
-    }
-    20%{
-        width: 95%; 
-        left: 11px;
-        border-radius:10px;
-    }
-    0%{
-        width: 100%; 
-        left: 0px;
-        border-radius: 0px; 
-    }
-
-}
