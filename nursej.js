@@ -89,4 +89,14 @@ function bubblesUp(){
     
 }
 
+function changeSizeFont(){
+    var font = document.body;
+    var style1 = font.getBoundingClientRect(font);
+    font = style1.width / 15
+    var text = document.getElementById("subtit");
+    if(40 > font){
+        font = 40;
+    } 
+    text.style.fontSize = font + "px";
+}
 bubblesUp();
