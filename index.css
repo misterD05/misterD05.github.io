@@ -1,51 +1,103 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="styleRobot.css">
-        <link rel="stylesheet" href="index.css">
-        
-    </head>
+.containsText{
+    position: absolute;
+    z-index: 2;
+    height: 15%;
+    width: 80%;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    opacity: 0.5;
+    left: 45px;
+    top: 55%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.normalText{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: white;
+    left: 20px;
+    right:15px;
     
-    <body id = "containAnimations">
-        <div class = "menu">
-            <div class="containT">
-                <h1 class="testo">F.A.R.A. Group</h1>
-            </div>
-            <button id = "menuHome" class = "menuOp" title = "home">
-                <div class = "homeSign"><div class = "roof"><div class = "door" id = "Door"></div></div></div>
-            </button>
-
-            <button id = "openWho" class = "menuOp" title = "us">
-                <div class = "personSign"><div class = "head"></div><div class = "collo" id = "neck"></div></div>
-            </button>
-            
-            <button id = "openProj" class = "menuOp" title = "rob">
-                <div class = "RobSign">
-                    <div class = "headRob"></div>
-                    <div class = "occhio" id = "r"></div>
-                    <div class = "occhio" id = "l"></div>
-                    <div class = "antenna" id = "r1"></div>
-                    <div class = "antenna" id = "l1"></div>
-                </div>
-            </button>
-
-        </div>
-        
-        
-        <div class = "inform" id = "images">
-            <img  id = "imag1" style = "background-image: url(https://www.campionatidirobotica.it/wp-content/uploads/2023/11/logo_web.png); background-repeat: no-repeat; background-size: 30% 100%;">
-            <h1 class="normalText"  id  = "subtit">Cosa sono?</h1>
-        </div>
-
-        <div class="inform" id = "presentation">
-            <img id = "imag2" style = "background-image: url(https://citynews-genovatoday.stgy.ovh/~media/horizontal-mid/62033338072347/robot-ragazzi-studenti.jpeg); background-repeat: no-repeat; background-size: 30% 100%;">
-            <div id = "nesss"><p class = "normalText" id = "pres">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, debitis deleniti a consequatur nulla necessitatibus autem nihil omnis cupiditate laudantium quidem, soluta obcaecati, saepe quasi blanditiis consequuntur temporibus assumenda quaerat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus veniam voluptatibus, adipisci ipsum repellat recusandae dolorum molestias qui aspernatur aut eligendi reprehenderit id sint, molestiae exercitationem consectetur provident voluptatum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibus dolorem facere minima officia alias impedit aspernatur deleniti molestias odit accusamus, illo hic, ipsam maiores molestiae fuga reprehenderit sapiente quidem?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse labore modi aspernatur recusandae fuga mollitia laudantium officiis, nostrum, eius reprehenderit dolor blanditiis, quis nihil dolore! Laboriosam neque quia ea delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error culpa quibusdam laboriosam harum perferendis beatae, assumenda quam. Non, ab consequuntur a nisi dignissimos quam eveniet tempora culpa itaque molestias vitae.</p></div>
-        </div>
-
-        <div class = "containsText"><p class = "normalText">Questo è un sito di presentazione per i campionati di robotica. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur corrupti incidunt provident ullam, cum velit mollitia sint facere similique temporibus laudantium quam optio quia sit esse deserunt magnam sunt totam.</p></div>
-        
-        
+}
 
 
-        <script language = "JavaScript" type = "text/JavaScript" src="nursej.js"></script>
-    </body>
-</html>
+
+#imag2{
+    opacity: 1;
+    position:  absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 240px;
+    background: rgb(0, 0, 0);
+    
+}
+
+#imag1{
+    z-index: 2;
+    position:  absolute;
+    height: 100%;
+    width: 100%;
+    min-width: 240px;
+    background: rgb(207, 207, 207);
+    
+}
+
+
+
+
+#subtit{
+    z-index: 2;
+    color: rgb(109, 109, 109);
+    left: max(60%, 550px);
+    font-size: max(40px,5vw);
+    text-align: center;
+}
+
+
+.inform{
+    left: 0px;
+    z-index: 2;
+    top: 170px;
+    height: 25%;
+    width: 100%;
+    opacity: 0.8;
+    transition: 500ms;
+}
+
+#nesss{
+    opacity: 0.9;
+    left:35%;
+    height: 100%;
+    width: 60%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+#images{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+#presentation{
+    padding-right: 5px;
+    opacity: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}
+
+#images:hover{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#presentation:hover{
+    opacity: 9;
+    visibility: visible;
+}
