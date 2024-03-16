@@ -46,15 +46,11 @@
     
 }
 
-#pres{
-    opacity: 0.9;
-    left:50%;
-}
 
 
 
 #subtit{
-    opacity: 0%;
+    z-index: 2;
     color: rgb(109, 109, 109);
     left: max(60%, 550px);
     font-size: max(40px,5vw);
@@ -62,23 +58,6 @@
 }
 
 
-
-.inform::-webkit-scrollbar{
-    width: 5px;
-    height: 2px;
-}
-
-
-#nothover{
-    overflow: scroll;
-    overflow-x: hidden;
-}
-
-.inform::-webkit-scrollbar-thumb:hover{
-    background: rgb(255, 50, 50);
-    border-radius: 360px;
-
-}
 .inform{
     left: 0px;
     z-index: 2;
@@ -86,29 +65,39 @@
     height: 25%;
     width: 100%;
     opacity: 0.8;
+    transition: 500ms;
+}
+
+#nesss{
+    opacity: 0.9;
+    left:35%;
+    height: 100%;
+    width: 60%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+#images{
     overflow: scroll;
     overflow-y: hidden;
-    transition: 200ms;
 }
 
-#nothover:hover{
-    opacity: 0.9;
-}
-
-
-
-
-.inform:hover{
+#presentation{
+    padding-right: 5px;
     opacity: 0;
+    overflow: scroll;
+    overflow-x: hidden;
     
 }
 
-#imag1:hover{
-    opacity:0;
-}
-
-#subtit{
+#images:hover{
     opacity: 0;
+    visibility: hidden;
 }
 
-
+#presentation:hover{
+    opacity: 9;
+    visibility: visible;
+}
