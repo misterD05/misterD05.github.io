@@ -33,3 +33,9 @@
     right:15px;
     
 }
+
+#video{
+    position: absolute;
+    left: 30%;
+    top:40%;
+}
