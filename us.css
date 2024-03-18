@@ -11,12 +11,10 @@
 .containsText{
     position: absolute;
     z-index: 2;
-    height: 15%;
     width: 80%;
     background: rgb(0, 0, 0);
     border-radius: 20px;
     opacity: 0.5;
-    left: 45px;
     top: 30%;
     overflow: scroll;
     overflow-x: hidden;
@@ -36,6 +34,26 @@
 
 #video{
     position: absolute;
-    left: 30%;
-    top:40%;
+    height: 50%;
+    width:  96%;
+    max-width: 980px;
+    z-index: 2;
+    left: 2%;
+    top:30%;
+    border-radius: 20px;
+}
+
+
+#testoGroup{
+    left: 63%;
+    height: 40%;
+    width: 35%;
+    
+}
+
+
+#scrollable{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
 }
