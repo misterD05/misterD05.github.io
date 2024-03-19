@@ -4,8 +4,9 @@
     opacity: 0.8;
     font-size: 60px;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     left:45px;
+    top: 15%;
 }
 
 .containsText{
@@ -29,31 +30,47 @@
     color: white;
     left: 20px;
     right:15px;
-    
+    font-size:x-large;
 }
 
 #video{
     position: absolute;
     height: 50%;
     width:  96%;
-    max-width: 980px;
+    max-width: 900px;
     z-index: 2;
     left: 2%;
-    top:30%;
+    top:40%;
     border-radius: 20px;
 }
 
 
 #testoGroup{
     left: 63%;
-    height: 40%;
+    height: 35%;
     width: 35%;
+    top: 45%;
     
 }
 
 
 #scrollable{
-    height: 100%;
+    height: 90%;
     width: 100%;
     overflow: scroll;
+}
+
+#video2{
+    position: absolute;
+    height: 50%;
+    width:  96%;
+    max-width: 900px;
+    z-index: 2;
+    left: 2%;
+    top: 110%;
+    border-radius: 20px;
+}
+
+#title2{
+    top: 85%;
 }
