@@ -21,7 +21,7 @@
     color: white;
     left: 20px;
     right:15px;
-    
+    font-size:larger;
 }
 
 
@@ -77,7 +77,10 @@
     overflow-x: hidden;
 }
 
-
+#pres{
+    position: absolute;
+    top:20%
+}
 
 #images{
     overflow: scroll;
@@ -100,4 +103,8 @@
 #presentation:hover{
     opacity: 9;
     visibility: visible;
+}
+
+#subT{
+    top:70%;
 }
