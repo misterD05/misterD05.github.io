@@ -26,7 +26,7 @@ div{
 
 
 .menu{
-    z-index: 3;
+    z-index: 4;
     position: sticky ;
     background: rgb(0, 0, 0);
     height: 80px;
