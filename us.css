@@ -67,10 +67,18 @@
     max-width: 900px;
     z-index: 2;
     left: 2%;
-    top: 110%;
+    top: 130%;
     border-radius: 20px;
 }
 
 #title2{
-    top: 85%;
+    top: 105%;
+}
+
+
+#documentRel{
+    position: absolute;
+    border-radius: 20px;
+    top: 110%;
+    left: 63%;
 }
