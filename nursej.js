@@ -52,7 +52,7 @@ function openRob(){
 function bubblesUp(){
     var ball = null;
     var index = 0;
-    var numOFballs = window.innerWidth / 10;
+    var numOFballs = window.innerWidth / 15;
     var measure = 0;
     var pos2 = 0;
     var pos3 = 0;
